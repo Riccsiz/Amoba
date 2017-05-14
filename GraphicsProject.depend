@@ -17,7 +17,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1494789090 source:d:\info\ppke\grafika\amoba\main.cpp
+1494789291 source:d:\info\ppke\grafika\amoba\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"kocka.hpp"
@@ -33,24 +33,44 @@
 	"kocka.hpp"
 	"graphics.hpp"
 
-1494789292 source:e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\main.cpp
+1494803228 source:e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\jatekmester.cpp
+	"graphics.hpp"
+	"kocka.hpp"
+	"jatekmester.hpp"
+
+1488256928 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\include\graphics.hpp
+	<string>
+
+1494780568 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\kocka.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1494780568 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\widgets.hpp
+	"graphics.hpp"
+
+1494788560 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\jatekmester.hpp
+	"kocka.hpp"
+	"graphics.hpp"
+
+1494803620 source:e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\kocka.cpp
+	"kocka.hpp"
+	"graphics.hpp"
+
+1494803208 source:e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"kocka.hpp"
 	"jatekmester.hpp"
 	<vector>
 
-1488256928 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\include\graphics.hpp
-	<string>
-
-1494780568 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\widgets.hpp
+1363433316 source:e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\widgets.cpp
+	"widgets.hpp"
 	"graphics.hpp"
 
-1494780568 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\kocka.hpp
+1494803208 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba12\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
-
-1494788560 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\jatekmester.hpp
 	"kocka.hpp"
-	"graphics.hpp"
+	"jatekmester.hpp"
+	<vector>
 

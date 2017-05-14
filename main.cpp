@@ -7,6 +7,7 @@ using namespace std;
 using namespace genv;
 
 
+
 int main()
 {
     gout.open(620,620);

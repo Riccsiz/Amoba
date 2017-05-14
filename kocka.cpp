@@ -1,5 +1,6 @@
 #include "kocka.hpp"
 #include "graphics.hpp"
+
 using namespace genv;
 
 AmobaKocka::AmobaKocka(int x, int y, int sx, int sy)
@@ -15,13 +16,20 @@ void AmobaKocka::draw() const
     if (m_tartalom==0)
         gout << color(0,0,0);
     else if (m_tartalom==1)
+    {
         gout << color(255,0,0);
+    }
     else
         gout << color(0,255,0);
-    gout << move_to(_x+4, _y+4) << line(_size_x-8, _size_y-8);
-    gout << move_to(_x+5, _y+4) << line(_size_x-8, _size_y-8);
-    gout << move_to(_x+_size_x-4, _y+4) << line(-_size_x+8, _size_y-8);
-    gout << move_to(_x+_size_x-5, _y+4) << line(-_size_x+8, _size_y-8);
+        gout << move_to(_x+4, _y+4) << line(_size_x-8, _size_y-8);
+        gout << move_to(_x+5, _y+4) << line(_size_x-8, _size_y-8);
+        gout << move_to(_x+_size_x-4, _y+4) << line(-_size_x+8, _size_y-8);
+        gout << move_to(_x+_size_x-5, _y+4) << line(-_size_x+8, _size_y-8);
+        gout << move_to (0,0) << box(620,4);
+        gout << move_to (0,0) << box(4,620);
+        gout << move_to (616,0) << box(4,620);
+        gout << move_to (0,616) << box(620,4);
+
 
 }
 

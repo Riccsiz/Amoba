@@ -1,0 +1,10 @@
+Leadásra Szánt Version 1.0 - Amõba - Bánhalmi Richárd Mátyás - YGZ67T
+
+- A zöld és a piros játékos felváltva következik (piros kezd)
+- A játékmezõ körüli keret színe jelzi melyik játékos lépett utoljára (ha esetleg szünetet tartanánk játék közben, és elfelejtõdne ki a következõ)
+- Ha valemlyik játékos 5 darab X-et helyez el egymás mellé vízszintesen, függõlegesen, vagy átlósan akkor nyert
+
+- Játék közben bármikor ki lehet lépni az "Escape" billenytûvel
+- Játék közben bármikor nullázni lehet a táblát az "Enter" billentyûvel
+- Játék utáni képernyõn az "Escape" billetyûvel lehet kilépni
+- Játék utáni képernyõn az "Enter billentyûvel új játék indítható
