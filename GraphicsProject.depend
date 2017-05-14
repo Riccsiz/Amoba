@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1363433316 source:d:\info\ppke\grafika\amoba\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1363433320 d:\info\ppke\grafika\amoba\widgets.hpp
+	"graphics.hpp"
+
+1488256928 d:\info\ppke\grafika\amoba\include\graphics.hpp
+	<string>
+
+1494777336 source:d:\info\ppke\grafika\amoba\kocka.cpp
+	"kocka.hpp"
+	"graphics.hpp"
+
+1494777413 d:\info\ppke\grafika\amoba\kocka.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
