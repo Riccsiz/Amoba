@@ -13,8 +13,12 @@ jatekmester::jatekmester()
         {
             palya[i][j] = new AmobaKocka(i*30+10,j*30+10,30,30);
             palya[i][j]->draw();
+            palya[i][j]->handle(1); //TEST !
+
+
         }
     }
+    palya[0][0]->handle(0); // TEST !!
     gout << refresh;
 }
 
@@ -39,6 +43,31 @@ int jatekmester::jatek()
             }
         }
         gout << refresh;
+        if (betelt())
+        {
+            return 2;
+        }
     }
     return 0;
+}
+
+bool jatekmester::betelt()
+{
+    for(int i = 0; i < 20; i++)
+    {
+        for (int j = 0; j < 20; j++)
+        {
+            if (palya[i][j]->tartalom() == 0)
+            {
+                return false;
+            }
+
+        }
+    }
+    return true;
+}
+
+int jatekmester::kinyert()
+{
+
 }

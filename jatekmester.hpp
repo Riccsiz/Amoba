@@ -18,6 +18,8 @@ class jatekmester
 
     private:
         int aktualis;
+        bool betelt();
+        int kinyert();
 };
 
 #endif // JATEKMESTER_H

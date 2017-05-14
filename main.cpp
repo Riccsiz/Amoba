@@ -13,21 +13,18 @@ int main()
 
     jatekmester *gm = new jatekmester;
     int game = gm->jatek();
-    if (game == 1)
+
+    if (game == 2)
     {
-        return 0;
+        gout << move_to(0,0) << color(0,0,0) << box(620,620);
+        gout << move_to (300,300) << color (255,255,255) << text("DÖNTETLEN");
+        gout << refresh;
+        event ev;
+        while(gin >> ev && ev.keycode != key_enter)
+        {
+
+        }
     }
 
-    /*AmobaKocka *k = new AmobaKocka(10,10,30,30);
-    k->draw();
-    gout << refresh;
-*/
-    //event ev;
-    /*while(gin >> ev) {
-        if (ev.type == ev_mouse && ev.button==btn_left)
-            if(k->is_selected(ev.pos_x,ev.pos_y))
-                k->handle(1);
-                gout << refresh;
-    }*/
     return 0;
 }

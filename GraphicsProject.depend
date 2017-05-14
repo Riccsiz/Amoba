@@ -17,19 +17,19 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1494780756 source:d:\info\ppke\grafika\amoba\main.cpp
+1494783482 source:d:\info\ppke\grafika\amoba\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"kocka.hpp"
 	"jatekmester.hpp"
 	<vector>
 
-1494780841 source:d:\info\ppke\grafika\amoba\jatekmester.cpp
+1494783344 source:d:\info\ppke\grafika\amoba\jatekmester.cpp
 	"graphics.hpp"
 	"kocka.hpp"
 	"jatekmester.hpp"
 
-1494782016 d:\info\ppke\grafika\amoba\jatekmester.hpp
+1494782334 d:\info\ppke\grafika\amoba\jatekmester.hpp
 	"kocka.hpp"
 	"graphics.hpp"
 
