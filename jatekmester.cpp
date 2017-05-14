@@ -74,9 +74,38 @@ int jatekmester::kinyert()
     {
         for (int j = 0; j < 20; j++)
         {
+
+            //vízszintes
             if (i+5 < 20)
             {
                 if (palya[i][j]->tartalom() >0 && palya[i][j]->tartalom() == palya[i+1][j]->tartalom() && palya[i][j]->tartalom() == palya[i+2][j]->tartalom() && palya[i][j]->tartalom() == palya[i+3][j]->tartalom() && palya[i][j]->tartalom() == palya[i+4][j]->tartalom() )
+                {
+                    return palya[i][j]->tartalom();
+                }
+            }
+
+            //függõleges
+            if (j+5 < 20)
+            {
+                if (palya[i][j]->tartalom() >0 && palya[i][j]->tartalom() == palya[i][j+1]->tartalom() && palya[i][j]->tartalom() == palya[i][j+2]->tartalom() && palya[i][j]->tartalom() == palya[i][j+3]->tartalom() && palya[i][j]->tartalom() == palya[i][j+4]->tartalom() )
+                {
+                    return palya[i][j]->tartalom();
+                }
+            }
+
+            //jobbra átló
+            if (j+5 < 20 && i+5 <20)
+            {
+                if (palya[i][j]->tartalom() >0 && palya[i][j]->tartalom() == palya[i+1][j+1]->tartalom() && palya[i][j]->tartalom() == palya[i+2][j+2]->tartalom() && palya[i][j]->tartalom() == palya[i+3][j+3]->tartalom() && palya[i][j]->tartalom() == palya[i+4][j+4]->tartalom() )
+                {
+                    return palya[i][j]->tartalom();
+                }
+            }
+
+            //balra átló
+            if (j+5 < 20 && i-5 >= 0)
+            {
+                if (palya[i][j]->tartalom() >0 && palya[i][j]->tartalom() == palya[i-1][j+1]->tartalom() && palya[i][j]->tartalom() == palya[i-2][j+2]->tartalom() && palya[i][j]->tartalom() == palya[i-3][j+3]->tartalom() && palya[i][j]->tartalom() == palya[i-4][j+4]->tartalom() )
                 {
                     return palya[i][j]->tartalom();
                 }
