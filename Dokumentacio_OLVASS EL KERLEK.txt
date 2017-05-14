@@ -1,10 +1,10 @@
-Leadásra Szánt Version 1.0 - Amõba - Bánhalmi Richárd Mátyás - YGZ67T
+ï»¿LeadÃ¡sra SzÃ¡nt Version 1.0 - AmÅ‘ba - BÃ¡nhalmi RichÃ¡rd MÃ¡tyÃ¡s - YGZ67T
 
-- A zöld és a piros játékos felváltva következik (piros kezd)
-- A játékmezõ körüli keret színe jelzi melyik játékos lépett utoljára (ha esetleg szünetet tartanánk játék közben, és elfelejtõdne ki a következõ)
-- Ha valemlyik játékos 5 darab X-et helyez el egymás mellé vízszintesen, függõlegesen, vagy átlósan akkor nyert
+- A zÃ¶ld Ã©s a piros jÃ¡tÃ©kos felvÃ¡ltva kÃ¶vetkezik (piros kezd)
+- A jÃ¡tÃ©kmezÅ‘ kÃ¶rÃ¼li keret szÃ­ne jelzi melyik jÃ¡tÃ©kos lÃ©pett utoljÃ¡ra (ha esetleg szÃ¼netet tartanÃ¡nk jÃ¡tÃ©k kÃ¶zben, Ã©s elfelejtÅ‘dne ki a kÃ¶vetkezÅ‘)
+- Ha valemlyik jÃ¡tÃ©kos 5 darab X-et helyez el egymÃ¡s mellÃ© vÃ­zszintesen, fÃ¼ggÅ‘legesen, vagy Ã¡tlÃ³san akkor nyert
 
-- Játék közben bármikor ki lehet lépni az "Escape" billenytûvel
-- Játék közben bármikor nullázni lehet a táblát az "Enter" billentyûvel
-- Játék utáni képernyõn az "Escape" billetyûvel lehet kilépni
-- Játék utáni képernyõn az "Enter billentyûvel új játék indítható
+- JÃ¡tÃ©k kÃ¶zben bÃ¡rmikor ki lehet lÃ©pni az "Escape" billenytÅ±vel
+- JÃ¡tÃ©k kÃ¶zben bÃ¡rmikor nullÃ¡zni lehet a tÃ¡blÃ¡t az "Enter" billentyÅ±vel
+- JÃ¡tÃ©k utÃ¡ni kÃ©pernyÅ‘n az "Escape" billetyÅ±vel lehet kilÃ©pni
+- JÃ¡tÃ©k utÃ¡ni kÃ©pernyÅ‘n az "Enter billentyÅ±vel Ãºj jÃ¡tÃ©k indÃ­thatÃ³
