@@ -12,6 +12,7 @@ class jatekmester
     public:
         jatekmester();
         virtual int jatek();
+        virtual int kezd();
 
     protected:
         AmobaKocka *palya[20][20];

@@ -6,12 +6,23 @@
 
 jatekmester::jatekmester()
 {
-    aktualis = 1;
     for(int i = 0; i < 20; i++)
     {
         for (int j = 0; j < 20; j++)
         {
             palya[i][j] = new AmobaKocka(i*30+10,j*30+10,30,30);
+        }
+    }
+}
+
+jatekmester::kezd()
+{
+    aktualis = 1;
+    for(int i = 0; i < 20; i++)
+    {
+        for (int j = 0; j < 20; j++)
+        {
+            palya[i][j]->handle(0);
             palya[i][j]->draw();
         }
     }

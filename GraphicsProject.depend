@@ -17,19 +17,40 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1494786207 source:d:\info\ppke\grafika\amoba\main.cpp
+1494789090 source:d:\info\ppke\grafika\amoba\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"kocka.hpp"
 	"jatekmester.hpp"
 	<vector>
 
-1494787262 source:d:\info\ppke\grafika\amoba\jatekmester.cpp
+1494788559 source:d:\info\ppke\grafika\amoba\jatekmester.cpp
 	"graphics.hpp"
 	"kocka.hpp"
 	"jatekmester.hpp"
 
-1494782334 d:\info\ppke\grafika\amoba\jatekmester.hpp
+1494788559 d:\info\ppke\grafika\amoba\jatekmester.hpp
+	"kocka.hpp"
+	"graphics.hpp"
+
+1494789292 source:e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"kocka.hpp"
+	"jatekmester.hpp"
+	<vector>
+
+1488256928 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\include\graphics.hpp
+	<string>
+
+1494780568 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\widgets.hpp
+	"graphics.hpp"
+
+1494780568 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\kocka.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1494788560 e:\ppke\2\bevprog2\beadandók\the third\amoba\amoba10\jatekmester.hpp
 	"kocka.hpp"
 	"graphics.hpp"
 
