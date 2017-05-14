@@ -3,7 +3,7 @@
 	"widgets.hpp"
 	"graphics.hpp"
 
-1363433320 d:\info\ppke\grafika\amoba\widgets.hpp
+1494780566 d:\info\ppke\grafika\amoba\widgets.hpp
 	"graphics.hpp"
 
 1488256928 d:\info\ppke\grafika\amoba\include\graphics.hpp
@@ -13,7 +13,23 @@
 	"kocka.hpp"
 	"graphics.hpp"
 
-1494777413 d:\info\ppke\grafika\amoba\kocka.hpp
+1494780566 d:\info\ppke\grafika\amoba\kocka.hpp
 	"graphics.hpp"
 	"widgets.hpp"
+
+1494780756 source:d:\info\ppke\grafika\amoba\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"kocka.hpp"
+	"jatekmester.hpp"
+	<vector>
+
+1494780841 source:d:\info\ppke\grafika\amoba\jatekmester.cpp
+	"graphics.hpp"
+	"kocka.hpp"
+	"jatekmester.hpp"
+
+1494782016 d:\info\ppke\grafika\amoba\jatekmester.hpp
+	"kocka.hpp"
+	"graphics.hpp"
 

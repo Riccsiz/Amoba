@@ -4,6 +4,9 @@
 #include "graphics.hpp"
 #include "widgets.hpp"
 
+using namespace std;
+using namespace genv;
+
 class AmobaKocka : public Widget {
 protected:
     int m_tartalom;

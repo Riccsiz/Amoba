@@ -3,6 +3,10 @@
 
 #include "graphics.hpp"
 
+using namespace std;
+using namespace genv;
+
+
 class Widget {
 protected:
     int _x, _y, _size_x, _size_y;

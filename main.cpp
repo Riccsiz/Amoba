@@ -1,6 +1,7 @@
 #include "graphics.hpp"
 #include "widgets.hpp"
 #include "kocka.hpp"
+#include "jatekmester.hpp"
 #include <vector>
 using namespace std;
 using namespace genv;
@@ -8,18 +9,25 @@ using namespace genv;
 
 int main()
 {
-    gout.open(400,400);
+    gout.open(620,620);
 
-    AmobaKocka *k = new AmobaKocka(10,10,30,30);
+    jatekmester *gm = new jatekmester;
+    int game = gm->jatek();
+    if (game == 1)
+    {
+        return 0;
+    }
+
+    /*AmobaKocka *k = new AmobaKocka(10,10,30,30);
     k->draw();
     gout << refresh;
-
-    event ev;
-    while(gin >> ev) {
+*/
+    //event ev;
+    /*while(gin >> ev) {
         if (ev.type == ev_mouse && ev.button==btn_left)
             if(k->is_selected(ev.pos_x,ev.pos_y))
                 k->handle(1);
                 gout << refresh;
-    }
+    }*/
     return 0;
 }
